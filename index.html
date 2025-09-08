@@ -1,119 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Official webpage of Harmony Heights, featuring our latest music, tour dates, and exclusive content for our fans.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harmony Heights: Feel the Music</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f0f4f8;
-            color: #333;
-        }
-        header, section {
-            margin-bottom: 30px;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        a {
-            color: #2980b9;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .social-links a {
-            display: block;
-            margin: 5px 0;
-        }
-        form {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        input, textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        input[type="submit"] {
-            background-color: #3498db;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #2980b9;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elia Ashia Silvestre – Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#0f172a;           /* slate-900 */
+      --muted:#475569;         /* slate-600 */
+      --line:#e2e8f0;          /* slate-200 */
+      --accent:#1e293b;        /* slate-800 */
+      --pill:#f1f5f9;          /* slate-100 */
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;color:var(--ink);font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;font-size:15px;line-height:1.5;background:#fff}
+    a{color:inherit;text-decoration:none;border-bottom:1px solid currentColor}
+    .page{
+      max-width:1000px;margin:28px auto;padding:0 20px;
+      display:grid;grid-template-columns:300px 1fr;gap:28px;
+    }
+    .card{background:#fff;border:1px solid var(--line);border-radius:16px}
+    .sidebar{padding:22px}
+    .avatar{width:120px;height:120px;border-radius:14px;object-fit:cover;border:1px solid var(--line)}
+    .name{font-size:32px;font-weight:800;letter-spacing:.3px;margin:14px 0 2px}
+    .role{font-weight:700;letter-spacing:.14em;color:var(--muted);font-size:12px;text-transform:uppercase}
+    .section{padding:22px}
+    h2{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+    .stack{display:flex;flex-wrap:wrap;gap:8px}
+    .pill{background:var(--pill);border:1px solid var(--line);border-radius:999px;padding:6px 10px;font-size:12px}
+    .list{margin:0;padding-left:18px}
+    .list li{margin:6px 0}
+    .split{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .job{padding:18px 0;border-top:1px solid var(--line)}
+    .job:first-of-type{border-top:0}
+    .job .title{font-weight:700}
+    .job .meta{color:var(--muted)}
+    .contact a{display:block;margin:2px 0}
+    .divider{height:1px;background:var(--line);margin:16px 0}
+    /* page 2 layout */
+    .pagebreak{break-after:page;page-break-after:always}
+    @media print{
+      .page{margin:0;padding:0}
+      a{border-bottom:0}
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Harmony Heights</h1>
-        <p>We are Harmony Heights, a band that blends genres to create unique sounds. Our journey through music has been incredible, and we're excited to share it with you.</p>
-        <img src="https://edube.org/uploads/media/default/0001/04/band-photo.jpg" alt="Harmony Heights Band Photo" width="300">
-        <img src="https://edube.org/uploads/media/default/0001/04/member1-amy.jpg" alt="Harmony Heights Vocals/Sampling: Amy Duncan" width="200">
-        <img src="https://edube.org/uploads/media/default/0001/04/member2-john.jpg" alt="Harmony Heights Bass/Guitars: John Smith" width="200">
-        <img src="https://edube.org/uploads/media/default/0001/04/member3-trevor.jpg" alt="Harmony Heights Drums: Trevor G." width="200">
-    </header>
 
-    <section>
-        <h2>Listen to Our Latest Tracks</h2>
-        <audio controls>
-            <source src="https://edube.org/uploads/media/default/0001/04/track1.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-    </section>
+  <!-- PAGE 1 -->
+  <main class="page card">
+    <aside class="sidebar">
+      <img class="avatar" src="profile.jpg" alt="Elia Ashia Silvestre" />
+      <div class="name">ELIA ASHIA<br/>SILVESTRE</div>
+      <div class="role">I.T Specialist</div>
 
-    <section>
-        <h2>Watch Our Performances</h2>
-        <video controls width="400">
-            <source src="https://edube.org/uploads/media/default/0001/04/performance1.mp4" type="video/mp4">
-            Your browser does not support the video element.
-        </video>
-    </section>
+      <div class="divider"></div>
+      <h2>Contact</h2>
+      <div class="contact">
+        <a href="#">121 Kampupot St., Imus Cavite, Medicion I-B</a>
+        <a href="tel:+639936026027">0993 602 6027</a>
+        <a href="mailto:shia0026@gmail.com">shia0026@gmail.com</a>
+        <a href="https://www.eliasilvestre.tech" target="_blank" rel="noreferrer">eliasilvestre.tech</a>
+        <a href="https://github.com/SilvestreEliaAshia" target="_blank" rel="noreferrer">github.com/SilvestreEliaAshia</a>
+        <a href="https://www.linkedin.com/in/eliasilvestre" target="_blank" rel="noreferrer">linkedin.com/in/eliasilvestre</a>
+      </div>
 
-    <section>
-        <h2>Upcoming Tour Dates</h2>
-        <ul>
-            <li><a href="https://example.com/purchase-tickets-harmony-heights-orlando" target="_blank">March 12, 2029, Orlando, FL - Get Tickets</a></li>
-            <li><a href="https://example.com/purchase-tickets-harmony-heights-slc" target="_blank">March 14, 2029, Salt Lake City, UT - Get Tickets</a></li>
-        </ul>
-    </section>
+      <div class="divider"></div>
+      <h2>Skills</h2>
+      <p class="meta">Languages</p>
+      <div class="stack">
+        <span class="pill">Python</span><span class="pill">JavaScript (React, Node.js)</span>
+        <span class="pill">Go</span><span class="pill">Rust</span><span class="pill">SQL</span>
+        <span class="pill">HTML/CSS</span>
+      </div>
 
-    <section>
-        <h2>Follow Us</h2>
-        <p>Stay updated with our latest news and releases:</p>
-        <div class="social-links">
-            <a href="https://www.example.com/facebook/hh">Facebook</a>
-            <a href="https://www.example.com/instagram/hh">Instagram</a>
-            <a href="https://www.example.com/twitter/hh">Twitter</a>
+      <p class="meta" style="margin-top:10px">DevOps &amp; Cloud</p>
+      <div class="stack">
+        <span class="pill">AWS</span><span class="pill">Azure</span><span class="pill">Docker</span>
+        <span class="pill">Kubernetes</span><span class="pill">GitHub Actions</span><span class="pill">Jenkins</span>
+      </div>
+
+      <p class="meta" style="margin-top:10px">Security Tools</p>
+      <div class="stack">
+        <span class="pill">Kali Linux</span><span class="pill">Wireshark</span>
+        <span class="pill">Burp Suite</span><span class="pill">Splunk</span><span class="pill">Nessus</span>
+      </div>
+
+      <p class="meta" style="margin-top:10px">AI / ML</p>
+      <div class="stack">
+        <span class="pill">OpenAI API</span><span class="pill">TensorFlow</span>
+        <span class="pill">Scikit-learn</span><span class="pill">LangChain</span>
+      </div>
+
+      <p class="meta" style="margin-top:10px">Other Tools</p>
+      <div class="stack">
+        <span class="pill">Figma</span><span class="pill">Postman</span>
+        <span class="pill">WordPress</span><span class="pill">Firebase</span>
+      </div>
+
+      <p class="meta" style="margin-top:10px">Soft Skills</p>
+      <div class="stack">
+        <span class="pill">Leadership</span><span class="pill">Technical Writing</span>
+        <span class="pill">Agile Development</span><span class="pill">Mentorship</span>
+      </div>
+    </aside>
+
+    <section class="section">
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="split">
+          <div class="title">PhilTech Defense Solutions / Lead Cybersecurity Architect</div>
+          <div class="meta">BGC, Taguig | 2038–Present</div>
         </div>
+        <ul class="list">
+          <li>Engineered military-grade AI defense systems for national databases.</li>
+          <li>Led nationwide cybersecurity simulation drills.</li>
+          <li>Developed anti-deepfake authentication tech for government communications.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="split">
+          <div class="title">ByteCloud Innovations / AI Systems Engineer</div>
+          <div class="meta">Remote | 2034–2038</div>
+        </div>
+        <ul class="list">
+          <li>Created anomaly detection models used in banking and insurance sectors.</li>
+          <li>Built chatbot assistants for LGUs handling 10M+ queries monthly.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="split">
+          <div class="title">CodeNest Inc. / Junior Developer → DevOps Lead</div>
+          <div class="meta">—</div>
+        </div>
+      </div>
     </section>
+  </main>
 
-    <section>
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
+  <div class="pagebreak"></div>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
+  <!-- PAGE 2 -->
+  <main class="page card">
+    <section class="section" style="grid-column:1 / -1">
+      <div class="split">
+        <div class="title">Makati</div>
+        <div class="meta">2031–2034</div>
+      </div>
+      <ul class="list">
+        <li>Built and maintained client apps using Node.js and Python.</li>
+        <li>Developed Docker-based CI/CD systems adopted company-wide.</li>
+        <li>Promoted for developing a server auto-recovery module.</li>
+      </ul>
 
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject"><br>
+      <div class="divider"></div>
+      <h2>Education</h2>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message"></textarea><br>
+      <div class="job">
+        <div class="split">
+          <div class="title">Unida Christian Colleges / Senior High School</div>
+          <div class="meta">2027–2031 | Imus Cavite</div>
+        </div>
+        <div class="meta">Senior High School (TVL – ICT: Programming) | 2025–2027</div>
+        <ul class="list">
+          <li>National Skills Competency Passer (Programming NC II)</li>
+          <li>ICT Expo: Best Capstone Award – Inventory System with Face Recognition Login</li>
+        </ul>
+      </div>
 
-            <input type="submit" value="Send">
-        </form>
+      <div class="job">
+        <div class="split">
+          <div class="title">Gov. D.M. Camerino Integrated High School / Junior High School</div>
+          <div class="meta">2021–2025 | Imus Cavite</div>
+        </div>
+        <ul class="list">
+          <li>With Honors</li>
+          <li>Editor, Campus Technology Bulletin</li>
+        </ul>
+      </div>
     </section>
+  </main>
+
 </body>
 </html>
